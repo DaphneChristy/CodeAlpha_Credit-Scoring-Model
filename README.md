@@ -21,6 +21,20 @@ Predict an individual's creditworthiness using past financial data.
 - F1-Score
 - ROC-AUC
 
-## Result
-Random Forest achieved the best ROC-AUC and better recall for risky customers.
+## Results
+
+- Logistic Regression achieved a ROC-AUC of approximately 0.73
+- Decision Tree improved recall for high-risk customers
+- Random Forest achieved the best overall performance in terms of ROC-AUC and F1-score
+
+Random Forest was selected as the final model for credit scoring.
+
+## How to Run
+
+1. Clone or download the repository
+2. Install dependencies using:
+   pip install -r requirements.txt
+3. Run the notebook or Python script
+
+
 
